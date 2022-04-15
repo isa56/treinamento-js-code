@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>To Do List</title>
+
+    <link rel="stylesheet" href="index.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        darkpurple: '#251233',
+                        lightpurple: '#A650DF',
+                        purple: '#3B1B4D',
+                        yellow: '#FFCE07',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        *, body {
+            font-family: 'Lato';
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+        }
+
+        .item-lista {
+            background-color: #FFCE07;
+            border-radius: 0.25rem;
+            cursor: pointer;
+            font-weight: bold;
+            height: auto;
+            margin: 0.75rem auto;
+            padding: 0.75rem 0.5rem;
+        }
+
+        .completo {
+            background-color: #A650DF;
+            text-decoration: line-through;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container px-3 py-5 flex flex-col">
+
+        <div class="insert-form flex flex-col items-center text-center p-0">
+
+            <h1 class=" font-bold text-xl h-10 text-purple">Lista de Tarefas</h1>
+
+            <input type="text" class="rounded h-auto my-20 mx-0 p-4 my-8 outline outline-1 outline-lightpurple">
+
+            <button class="bg-darkpurple rounded text-white h-auto py-4 font-bold my-8">Inserir Tarefa</button>
+
+        </div>
+
+        <div class="list-container flex flex-col items-start">
+
+            <ul class="texto-padrao justify-start">
+                <li class="item-lista">aaaaaaa</li>
+                <li class="item-lista">aaaaaaa</li>
+                <li class="item-lista">aaaaaaa</li>
+                <li class="item-lista">aaaaaaa</li>
+                <li class="item-lista completo">aaaaaaa</li>
+                <li class="item-lista completo">aaaaaaa</li>
+                <li class="item-lista completo">aaaaaaa</li>
+            </ul>
+
+        </div>
+
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
