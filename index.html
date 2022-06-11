@@ -12,7 +12,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 
-    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com">
+    </script>
+
     <script>
         tailwind.config = {
             theme: {
@@ -34,6 +36,7 @@
             font-family: 'Lato';
             height: 100%;
             margin: 0;
+            min-width: 500px;
             padding: 0;
             width: 100%;
         }
@@ -59,7 +62,7 @@
 
 <body>
 
-    <div class="container px-3 py-5 flex flex-col">
+    <div class="container px-3 py-5 w-auto flex flex-col justify-center">
 
         <div class="insert-form flex flex-col items-center text-center p-0">
 
