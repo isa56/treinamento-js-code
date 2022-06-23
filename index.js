@@ -14,7 +14,7 @@ buttonInsert.addEventListener('click', addTask);
 
 buttonRemoveAll.addEventListener('dblclick', cleanAll);
 
-taskList.addEventListener('dblclick', completeTask);
+taskList.addEventListener('dblclick', (e) => e.target.className += ' completo');    // complete task
 
 
 if (tasksFromLocalStorage) {
@@ -43,9 +43,6 @@ function addTask() {
 
 }
 
-function completeTask(e) {
-    e.target.className += ' completo';
-}
 
 function cleanAll(e) {
     localStorage.setItem('taskList', '');
