@@ -1,0 +1,24 @@
+*, body {
+    font-family: 'Lato';
+    height: 100%;
+    margin: 0;
+    min-width: 500px;
+    padding: 0;
+    width: 100%;
+}
+
+.item-lista {
+    background-color: #FFCE07;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    font-weight: bold;
+    height: auto;
+    margin: 0.75rem auto;
+    padding: 0.75rem 0.5rem;
+}
+
+.completo {
+    background-color: #A650DF;
+    cursor: default;
+    text-decoration: line-through;
+}

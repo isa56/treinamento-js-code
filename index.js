@@ -1,77 +1,77 @@
 // Variables:
-let allTasks = []
-const tasksFromLocalStorage = JSON.parse(localStorage.getItem('taskList'))
+let allTasks = [];
+const tasksFromLocalStorage = JSON.parse(localStorage.getItem('taskList'));
 
 
 // HTML Elements
-const input = document.querySelector('#inputText')
-const buttonInsert = document.querySelector('#btnInsert')
-const buttonRemoveAll = document.querySelector('#btnRemoveAll')
-const taskList = document.querySelector('#listItems')
+const input = document.querySelector('#inputText');
+const buttonInsert = document.querySelector('#btnInsert');
+const buttonRemoveAll = document.querySelector('#btnRemoveAll');
+const taskList = document.querySelector('#listItems');
 
 
-buttonInsert.addEventListener('click', addTask)
+buttonInsert.addEventListener('click', addTask);
 
-buttonRemoveAll.addEventListener('dblclick', cleanAll)
+buttonRemoveAll.addEventListener('dblclick', cleanAll);
 
-taskList.addEventListener('dblclick', completeTask)
+taskList.addEventListener('dblclick', completeTask);
 
 
 if (tasksFromLocalStorage) {
-    allTasks = tasksFromLocalStorage
+    allTasks = [...tasksFromLocalStorage];
 }
 
-renderTasks(allTasks)
+renderTasks(allTasks);
 
 
 function addTask() {
 
-    if (input.value === '') return
+    if (input.value === '') return;
 
-    let task = input.value
+    let task = input.value;
 
-    const li = document.createElement('li')
-    li.className = 'item-lista'
-    li.appendChild(document.createTextNode(task))
+    const li = document.createElement('li');
+    li.className = 'item-lista';
+    li.appendChild(document.createTextNode(task));
 
-    taskList.appendChild(li)
-    allTasks.push(task)
+    taskList.appendChild(li);
+    allTasks.push(task);
 
-    saveToLocalStorage(allTasks)
+    saveToLocalStorage(allTasks);
 
-    input.value = ''
+    input.value = '';
 
 }
 
 function completeTask(e) {
-    e.target.className += ' completo'
+    e.target.className += ' completo';
 }
 
 function cleanAll(e) {
-    localStorage.setItem('taskList', '')
-    allTasks = []
+    localStorage.setItem('taskList', '');
+    allTasks = [];
 
     if (confirm("Você tem certeza de que quer remover todas as tarefas?")) {
-        taskList.innerHTML = ''
+        taskList.innerHTML = '';
     }
 
-    localStorage.setItem('taskList', JSON.stringify(allTasks))
+    localStorage.setItem('taskList', JSON.stringify(allTasks));
 
 }
 
 function saveToLocalStorage(tasks) {
-    allTasksString = JSON.stringify(tasks)
-    localStorage.setItem('taskList', allTasksString)
+    allTasksString = JSON.stringify(tasks);
+    localStorage.setItem('taskList', allTasksString);
 }
 
 
 function renderTasks(tasks) {
-    let i
-    list = ""
+    let i;
+    list = "";
     for(i=0; i<tasks.length; i++) {
         list += `
         <li class="item-lista">${tasks[i]}</li>
         `
     }
-    taskList.innerHTML = list
+    taskList.innerHTML = list;
 }
