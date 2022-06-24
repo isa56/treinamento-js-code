@@ -187,10 +187,24 @@ Desenvolvido por [Isadora Ferreira](https://br.linkedin.com/in/isadorafer), com 
 
 ## O Projeto
 Após aprender tudo isso sobre JavaScript e sobre Document-Object Model, precisamos praticar! Para isso, vamos fazer uma To-Do List, com as tarefas que precisamos fazer no dia, e indicando se elas já foram feitas ou não.
+Na branch [gabarito-projeto](), há uma sugestão de como o projeto deve ser feito.
 
 ## Desafio Final
-Para garantir que seus planos na To Do List sejam concretizados, vamos buscar os dados de Clima da sua região e impedir que o mal tempo atrapalhe tudo.
+Para garantir que seus planos na To Do List sejam concretizados, vamos buscar os dados de Clima da sua região e impedir que o mau tempo atrapalhe tudo.
 Para isso, sugiro que leia sobre a [Fetch API](https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API), ou mesmo assista um [tutorial](https://www.youtube.com/watch?v=1d5jNmKdwlY) sobre.
-Para isso, sugerimos que use a [API ]().
+Para isso, sugerimos que use a [Weather API](https://openweathermap.org/api).
 
 Abaixo da To-Do List, insira os dados recebidos dessa API da forma como preferir.
+Na branch [gabarito-desafio](), há uma sugestão de como o desafio deve ser feito.
+
+## Extras
+- Materiais Gratuitos para te ajudar:
+  - [Trilha Discover da RocketSeat (PT-BR)](https://app.rocketseat.com.br/discover);
+  - [Guia de TI](https://guiadeti.com.br/guia-categorias/cursos-gratuitos/);
+  - [Roadmap - Trilhas de Aprendizado (EN)](https://roadmap.sh/);
+  - [freeCodeCamp (EN)](https://www.freecodecamp.org/learn);
+  - [A Melhor Forma de Aprender](https://www.google.com.br/).
+
+- Materiais Pagos para te ajudar:
+  - [Cursos da Alura (PT-BR) (Use a conta da Code)](https://alura.com.br/);
+  - [Curso de JS e TS do básico ao avançado 2022 (PT-BR)](https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/).
