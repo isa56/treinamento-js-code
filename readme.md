@@ -10,6 +10,7 @@ Desenvolvido por [Isadora Ferreira](https://br.linkedin.com/in/isadorafer), com 
 | [Métodos DOM](#métodos-dom) |
 | [O Projeto](#o-projeto) |
 | [Desafio Final](#desafio-final) |
+| [Extras](#extras) |
 
 ## JavaScript Básico
 [Documentação](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript) | [Tutorial (Inglês)](https://www.youtube.com/watch?v=hdI2bqOjy3c&list=PLillGF-RfqbbnEGy3ROiLWk7JMCuSyQtX&index=1&t=2s) | [Tutorial (Português)](https://app.rocketseat.com.br/discover/course/o-guia-estelar-de-java-script) | [CheatSheet](https://htmlcheatsheet.com/js/).
@@ -191,11 +192,11 @@ Na branch [gabarito-projeto](https://github.com/isa56/treinamento-js-code/tree/g
 
 ## Desafio Final
 Para garantir que seus planos na To Do List sejam concretizados, vamos buscar os dados de Clima da sua região e impedir que o mau tempo atrapalhe tudo.
-Para isso, sugiro que leia sobre a [Fetch API](https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API), ou mesmo assista um [tutorial](https://www.youtube.com/watch?v=1d5jNmKdwlY) sobre.
+Para isso, sugiro que leia sobre a [Fetch API](https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API), ou mesmo assista um [tutorial em vídeo](https://www.youtube.com/watch?v=1d5jNmKdwlY) ou um [artigo](https://www.devmedia.com.br/javascript-fetch/41206) sobre.
 Para isso, sugerimos que use a [Weather API](https://openweathermap.org/api).
 
 Abaixo da To-Do List, insira os dados recebidos dessa API da forma como preferir.
-Na branch [gabarito-desafio](), há uma sugestão de como o desafio deve ser feito.
+Na branch [gabarito-desafio](https://github.com/isa56/treinamento-js-code/tree/gabarito-desafio), há uma sugestão de como o desafio deve ser feito.
 
 ## Extras
 - Materiais Gratuitos para te ajudar:
