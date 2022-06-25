@@ -187,7 +187,7 @@ Desenvolvido por [Isadora Ferreira](https://br.linkedin.com/in/isadorafer), com 
 
 ## O Projeto
 Após aprender tudo isso sobre JavaScript e sobre Document-Object Model, precisamos praticar! Para isso, vamos fazer uma To-Do List, com as tarefas que precisamos fazer no dia, e indicando se elas já foram feitas ou não.
-Na branch [gabarito-projeto](), há uma sugestão de como o projeto deve ser feito.
+Na branch [gabarito-projeto](https://github.com/isa56/treinamento-js-code/tree/gabarito-projeto), há uma sugestão de como o projeto deve ser feito.
 
 ## Desafio Final
 Para garantir que seus planos na To Do List sejam concretizados, vamos buscar os dados de Clima da sua região e impedir que o mau tempo atrapalhe tudo.

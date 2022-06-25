@@ -2,7 +2,7 @@
 // console.log("Hello, world!")
 
 // Declarando variáveis:
-/*
+
 var umaVar = "global"  // variável global
 console.log(umaVar)
 umaVar = "sou mutável :D"
@@ -17,10 +17,10 @@ const constante = "Eu sou escopada. E fixa."  // variável escopada e fixa.
 console.log(constante)
 // constante = "outro valor :("  // não funciona!!! Erro: Assignment to constant variable.
 // console.log(constante)
-*/
+
 
 // Condições:
-/*
+
 let isRaining = true
 
 if (isRaining) {
@@ -34,10 +34,10 @@ if (isRaining) {
 // falsy: 0, string vazia
 // https://medium.com/swlh/what-are-truthy-and-falsy-values-in-javascript-21f117442c58
 // switch-case:
-*/
+
 
 // Loops:
-/*
+
 for (let i = 0; i < 5; i++) {
   console.log("Número:", i)
 }
@@ -48,15 +48,14 @@ while (i === 5) { // comparação estrita
   i--
 }
 
-let i = 1
+let j = 1
 do {
-  console.log("Número:", i)
-  i++
-} while(i < 0)
-*/
+  console.log("Número:", j)
+  j++
+} while(j < 0)
 
 // Arrays:
-/*
+
 const array = [1, 2, 3, 4, 5] // usar const para não mudar o tipo!
 console.log(array)
 array.push(6)
@@ -71,10 +70,10 @@ console.log(coisasAleatorias)
 
 const objetos = [{name: 'gabs', age: 19}, {name: 'isa', age: 20}]
 console.log(objetos)
-*/
+
 
 // Objetos:
-/*
+
 const gabi = {
   name: 'Gabriella',
   age: 19,
@@ -105,10 +104,10 @@ class Pessoa {
 const isadora = new Pessoa('Isadora', 20, 'CC', 'JF')
 console.log(isadora)
 console.log(isadora.calculateBirthYear())
-*/
+
 
 // Funções:
-/*
+
 function sum(a, b) {
   return a + b
 }
@@ -122,10 +121,10 @@ const multiply = function (a, b) {
 console.log(sum(5,2))
 console.log(subtract(6, 2))
 console.log(multiply(6, 2))
-*/
+
 
 // DOM:
-/*
+
 const titulo = document.querySelector('#titulo')
 const lista = document.getElementById('lista')
 
@@ -133,4 +132,3 @@ titulo.innerText = 'AAA'
 
 lista.innerHTML = '<li>Gabi é legal :D</li>'
 lista.innerHTML += '<li>Isa tbm é legal :D</li>'
-*/
