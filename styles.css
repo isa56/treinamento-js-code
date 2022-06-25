@@ -22,3 +22,7 @@
     cursor: default;
     text-decoration: line-through;
 }
+
+.weather-info {
+    height: 1.8em;
+}
