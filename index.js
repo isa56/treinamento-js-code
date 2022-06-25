@@ -29,7 +29,7 @@ getWeatherData();   // chama a função
 
 async function getWeatherData() {
   // função assíncrona porque se deve esperar uma resposta, que não necessariamente vai ser instantânea
-  const apiKey = "b7ade4ba2b753ea8b03581bab69389a5"; // código da API retirado da dashboard do site
+  const apiKey = config.API_KEY; // código da API retirado da dashboard do site
   const units = "metric"; // opção da API, para usar a unidade padrão (ºC)
   const url = `https://api.openweathermap.org/data/2.5/weather?lat=-21.7642&lon=-43.3496&appid=${apiKey}&units=${units}&lang=pt_br`; // URL, para ficar fácil de alterar
 
