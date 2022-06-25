@@ -190,13 +190,28 @@ Desenvolvido por [Isadora Ferreira](https://br.linkedin.com/in/isadorafer), com 
 Após aprender tudo isso sobre JavaScript e sobre Document-Object Model, precisamos praticar! Para isso, vamos fazer uma To-Do List, com as tarefas que precisamos fazer no dia, e indicando se elas já foram feitas ou não.
 Na branch [gabarito-projeto](https://github.com/isa56/treinamento-js-code/tree/gabarito-projeto), há uma sugestão de como o projeto deve ser feito.
 
-## Desafio Final
+## Desafios Finais
+
+### 1. Salvar dado se tarefa foi terminada:
+Salvar no localStorage caso a tarefa tenha sido finalizada ou não.
+
+<details> 
+  <summary>Possível solução</summary>
+   Salvar um array de objetos, <code>{taskName: string, isCompleted: boolean}</code>
+</details>
+
+### 2. Consumir API:
 Para garantir que seus planos na To Do List sejam concretizados, vamos buscar os dados de Clima da sua região e impedir que o mau tempo atrapalhe tudo.
 Para isso, sugiro que leia sobre a [Fetch API](https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API), ou mesmo assista um [tutorial em vídeo](https://www.youtube.com/watch?v=1d5jNmKdwlY) ou um [artigo](https://www.devmedia.com.br/javascript-fetch/41206) sobre.
 Para isso, sugerimos que use a [Weather API](https://openweathermap.org/api).
 
 Abaixo da To-Do List, insira os dados recebidos dessa API da forma como preferir.
-Na branch [gabarito-desafio](https://github.com/isa56/treinamento-js-code/tree/gabarito-desafio), há uma sugestão de como o desafio deve ser feito.
+
+<details> 
+  <summary>Possível solução</summary>
+    Na branch <a href="https://github.com/isa56/treinamento-js-code/tree/gabarito-desafio" alt="Link para a branch de gabarito do desafio">gabarito-desafio</a>, há uma sugestão de como o desafio deve ser feito.
+</details>
+
 
 ## Extras
 - Materiais Gratuitos para te ajudar:

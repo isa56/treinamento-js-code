@@ -28,5 +28,20 @@ Algoritmo do quê ensinar:
 ## DOM
 Aqui, vamos para o Projeto em si. A ideia é criar uma ToDo List, que salve as informações no 
 
-1. Explicar o HTML;
-[todo]
+1. Explicar o HTML e linkar o `script`;
+2. Mostrar os `querySelectors` do _input_, do _btn insert_;
+3. Mostrar o `eventListener`, criar a função de `addTask`:
+   1. Pegar o valor do input, printar no console;
+   2. Pegar a lista do DOM, criar o elemento e adicioná-lo ao DOM;
+   3. Limpar valor do input, verificar se está vazio;
+4. Mostrar o `eventListener`, criar a função de `cleanAll`;
+   1. Mostrar função `confirm()` e limpar HTML;
+5. Adicionar `eventListener` para marcar como completo.
+
+Falando sobre salvar os dados:
+1. Criar `array` de tasks, criar função para salvar no `localStorage`;
+2. Chamar a função no `addTask` e `cleanAll`;
+3. Criar função de render;
+4. Mostrar o getter do `localStorage`.
+
+Apresentar desafios.
